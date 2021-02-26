@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    color:#f3f3f3;
+}
+
+body {
+    background-color: #f3f3f3;
+    height: 100%;
+}
+
+#topo {    
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: rgb(6, 6, 124);
+}
+
+#conteiner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Visor */
+
+.visor {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(6, 6, 124);
+}
+
+.alinhamento {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+#conteiner-nomes  {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Jogo */
+
+.conteiner-jogo {
+    width: 410px;
+    height: 410px;
+    border: 1px solid #f3f3f3;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+.jogador {
+    float: left;
+}
+
+.maquina {
+    float: right;
+}
+
+.quadro {
+    border: 1px solid #f3f3f3;
+    color: #f3f3f3;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    background-color: rgb(6, 6, 124);
+}
+
+.jogadores:hover {
+    background-color: red;
+}
+
+.sem-cursor {
+    cursor: default;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom,rgb(0, 0, 187), rgb(0, 0, 58));
+    position: absolute;
+    top: 130px; 
+    right: 585px;
+}
+
+.red {
+    background-color: red;
+}
+
+.maquinas {
+    cursor: default;
+}

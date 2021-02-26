@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Game-Bingo</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div id="topo">
+            <h3>Game-Bingo</h3>
+        </div>
+        <div class="alinhamento">
+            <div class="visor">
+                <span><h2>Número sorteado: <span id="valor">00</span></h2></span>
+            </div>
+        </div>
+        <div id="conteiner-nomes">
+            <div class="alinhamento" style="width: 410px; float: left;">
+                <span class="visor"><h3>Cartela Jogador</h3></span>
+            </div>
+            <button onclick='gerarNumero()'>Sortear</button>
+            <div class="alinhamento" style="width: 410px; float: right;">
+                <span class="visor"><h3>Cartela Máquina</h3></span>
+            </div>
+            <div style="clear: both;"></div>
+        </div >
+        <div id="conteiner">
+            <div class="conteiner-jogo jogador"></div>
+
+            <div class="conteiner-jogo maquina"></div>
+        </div> 
+        <script src="main.js"></script>
+    </body>
+</html>
